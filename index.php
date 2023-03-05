@@ -1,4 +1,5 @@
 <?php
+//email and password validation post api
 $email = $_POST['email'];
 $password = $_POST['password'];
 
