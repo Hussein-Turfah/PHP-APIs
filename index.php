@@ -1,5 +1,7 @@
 <?php
 //email and password validation post api
+header('Content-Type: application/json');
+
 $email = $_POST['email'];
 $password = $_POST['password'];
 
